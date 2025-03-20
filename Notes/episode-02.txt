@@ -1,0 +1,25 @@
+https://stackoverflow.com/questions/22343224/whats-the-difference-between-tilde-and-caret-in-package-json --> link
+
+--------------------------------
+
+import React from "react";
+import ReactDom from "react-dom/client";
+
+//REACT ELEMENT
+//  react element kinda equivalent to DOM element
+const heading = React.createElement("h1",
+    {
+        id : "heading" 
+    },  
+    "Namaste React");
+    console.log(heading);
+const jsxHeading = <h1 id="heading">Namaste React</h1>
+
+console.log(jsxHeading); 
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+
+root.render(jsxheading);
+
+----------------------------------------------------------
