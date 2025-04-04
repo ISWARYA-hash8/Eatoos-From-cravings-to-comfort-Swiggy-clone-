@@ -20,3 +20,27 @@ Parcel is a beast
 -HTTPs ---> to host in HTTPs
 -Tree Shaking --> if you have 100 of methods but you use few then it     removes unused code
 
+FOOD APP
+/*
+    1. Header
+        - Logo
+        - Nav Items
+    2. Body
+        - Search
+        - Restaurant Card
+    3. Footer
+        - Copyright
+        - Links
+        - Address
+        - Contact
+*/
+
+
+
+
+#React Hooks
+(NOrmal js utility function)
+
+--UseState()  (used 80%) --> SuperPowerful state variables in react
+--useEffect()
+
