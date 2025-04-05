@@ -44,3 +44,7 @@ FOOD APP
 --UseState()  (used 80%) --> SuperPowerful state variables in react
 --useEffect()
 
+
+
+-------
+howcan we make api call?

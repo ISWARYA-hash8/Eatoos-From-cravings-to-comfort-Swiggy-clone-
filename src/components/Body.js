@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import RestaurantCard from './RestaurantCard';
 import resList from '../utils/mockData';
 
@@ -8,7 +8,7 @@ const Body = () => {
   // * useEffect() -
 
   // * State variable - Super Powerful variable
-  const [listOfRestaurants, setListOfRestaurants] = useState(resList);
+  const [listOfRestaurants, setListOfRestaurants] = useState([]);
 
   // * Normal JS variable
   // const listOfRestaurants = [
@@ -50,6 +50,22 @@ const Body = () => {
   //   },
   // ];
 
+  useEffect(()=>{
+    console.log("UseEffect called");
+    fetchData();
+  }, []);
+  console.log("body rendered");
+  const fetchData = async () =>{
+    const data = await fetch(
+      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.624480699999999&page_type=DESKTOP_WEB_LISTING"
+    );
+    const json = await data.json();
+    console.log(json);
+    setListOfRestaurants(json?.data?.cards[2]?.card?.card);
+    console.log(setListOfRestaurants);
+  }
+ 
+
   return (
     <div className="body">
       {/* <div className="search-container">
@@ -76,7 +92,7 @@ const Body = () => {
         {/* // * looping through the <RestaurentCard /> components Using Array.map() method */}
 
         {listOfRestaurants.map((restaurant) => (
-          <RestaurantCard key={restaurant.data.id} resData={restaurant} />
+          <RestaurantCard key={restaurant?.info?.id} resData={restaurant} />
         ))}
       </div>
     </div>
