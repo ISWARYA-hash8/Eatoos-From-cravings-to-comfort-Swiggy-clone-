@@ -98,5 +98,5 @@ const Body = () => {
     </div>
   );
 };
-
+console.log(Hi);
 export default Body;
