@@ -48,3 +48,13 @@ FOOD APP
 
 -------
 howcan we make api call?
+
+
+
+
+
+
+
+// if(listOfRestaurants.length===0){
+  //   return <h1>loading....</h1>
+  // }   //not a gud practice so so shimmer UI

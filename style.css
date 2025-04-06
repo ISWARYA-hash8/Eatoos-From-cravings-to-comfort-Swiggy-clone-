@@ -102,3 +102,28 @@
   margin-bottom: 20px;
   text-align: center;
 }
+.shimmer-container{
+  display: flex;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.shimmer-card{
+  width: 10px;
+  height: 400px;
+  margin: 20px;
+  background-color: #f0f0f0;
+  
+
+}
+.login{
+  padding: 2px;
+  color: black;
+}
+.login{
+  padding: 0 20px;
+  cursor: pointer;
+}
+.filter{
+  display: flex;
+}

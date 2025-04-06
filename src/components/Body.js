@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import RestaurantCard from './RestaurantCard';
 import resList from '../utils/mockData';
+import Shimmer from './Shimmer';
 
 const Body = () => {
   // * React Hook -> A normal JavaScript function which is given to us by React (or) Normal JS utility functions
@@ -10,45 +11,9 @@ const Body = () => {
   // * State variable - Super Powerful variable
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
 
-  // * Normal JS variable
-  // const listOfRestaurants = [
-  //   {
-  //     type: 'restaurant',
-  //     data: {
-  //       id: '334475',
-  //       name: 'KFC',
-  //       cloudinaryImageId: 'bdcd233971b7c81bf77e1fa4471280eb',
-  //       cuisines: ['Burgers', 'Biryani', 'American', 'Snacks', 'Fast Food'],
-  //       costForTwo: 40000,
-  //       deliveryTime: 36,
-  //       avgRating: '3.8',
-  //     },
-  //   },
-  //   {
-  //     type: 'restaurant',
-  //     data: {
-  //       id: '334476',
-  //       name: 'Dominos',
-  //       cloudinaryImageId: 'bdcd233971b7c81bf77e1fa4471280eb',
-  //       cuisines: ['Burgers', 'Biryani', 'American', 'Snacks', 'Fast Food'],
-  //       costForTwo: 40000,
-  //       deliveryTime: 36,
-  //       avgRating: '4.8',
-  //     },
-  //   },
-  //   {
-  //     type: 'restaurant',
-  //     data: {
-  //       id: '334477',
-  //       name: 'McDonals',
-  //       cloudinaryImageId: 'bdcd233971b7c81bf77e1fa4471280eb',
-  //       cuisines: ['Burgers', 'Biryani', 'American', 'Snacks', 'Fast Food'],
-  //       costForTwo: 40000,
-  //       deliveryTime: 36,
-  //       avgRating: '4.2',
-  //     },
-  //   },
-  // ];
+  const [filteredRestaurants,setfilteredRestaurant] = useState([]);
+  const [searchText,setSearchText] = useState("");
+
 
   useEffect(()=>{
     console.log("UseEffect called");
@@ -57,22 +22,42 @@ const Body = () => {
   console.log("body rendered");
   const fetchData = async () =>{
     const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.624480699999999&page_type=DESKTOP_WEB_LISTING"
+      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=11.5034192&lng=77.24443480000001&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
     );
     const json = await data.json();
     console.log(json);
-    setListOfRestaurants(json?.data?.cards[2]?.card?.card);
+    setListOfRestaurants(json?.data?.cards[3]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    setfilteredRestaurant(json?.data?.cards[3]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     console.log(setListOfRestaurants);
-  }
- 
+  };
+  
 
-  return (
+  return listOfRestaurants.length===0? <Shimmer/>:(   
     <div className="body">
       {/* <div className="search-container">
         <input type="text" placeholder="Search Food or Restaurant" />
         <button>Search</button>
       </div> */}
       <div className="filter">
+        <div className='search'>
+          <input type="text" className='search-box' value={searchText}
+          onChange={(e) => {
+            setSearchText(e.target.value);
+          }} />
+          <button onClick={() =>{
+            //filtert the restaurant
+            console.log("SearchText");
+
+           const filteredRestaurants = listOfRestaurants.filter((res) =>{
+              res.data.name.toLowerCase().includes(searchText.toLowerCase())
+
+            });
+            setListOfRestaurants(filteredRestaurants);
+
+
+          }}>search</button>
+        </div>
+        
         <button
           className="filter-btn"
           onClick={() => {
@@ -91,12 +76,12 @@ const Body = () => {
       <div className="res-container">
         {/* // * looping through the <RestaurentCard /> components Using Array.map() method */}
 
-        {listOfRestaurants.map((restaurant) => (
+        {filteredRestaurants.map((restaurant) => (
           <RestaurantCard key={restaurant?.info?.id} resData={restaurant} />
         ))}
       </div>
     </div>
   );
 };
-console.log(Hi);
+
 export default Body;
