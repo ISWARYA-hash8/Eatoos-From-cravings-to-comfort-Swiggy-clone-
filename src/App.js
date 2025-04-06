@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Body from './components/Body';
 import { createBrowserRouter , RouterProvider } from 'react-router-dom';
 import About from './components/About';
+import Contact from './components/Contact';
 
 /* Components of Our Food-Order App
  * Header
@@ -92,6 +93,10 @@ const appRouter = createBrowserRouter([{
 {
   path: "/about",
   element:<About />
+},
+{
+  path: "/contact",
+  element:<Contact />
 },
 ]);
 
