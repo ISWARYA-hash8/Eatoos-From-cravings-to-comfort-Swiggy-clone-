@@ -3,3 +3,7 @@ export const CDN_URL =
 
 export const LOGO_URL =
   'https://png.pngtree.com/png-vector/20230217/ourmid/pngtree-food-logo-design-for-restaurant-and-business-png-image_6604922.png';
+
+
+
+  export const MENU_API ="https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=11.5034192&lng=77.24443480000001&restaurantId=941047&catalog_qa=undefined&submitAction=ENTER";

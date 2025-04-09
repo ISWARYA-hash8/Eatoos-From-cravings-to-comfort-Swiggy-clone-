@@ -58,3 +58,12 @@ howcan we make api call?
 // if(listOfRestaurants.length===0){
   //   return <h1>loading....</h1>
   // }   //not a gud practice so so shimmer UI
+
+
+-------------------------------
+>>>>>> What is React useParams?
+The useParams hook in React Router means that the dynamic parts of URLs are just easy to access within the app. It returns URL route parameters as an object where keys are the parameters on that route and values are segment pieces from the matching URL.
+
+For example, in a route like /blog/:id, you could access id using useParams from the component being rendered. Given the URL /blog/123, useParams() will return { id: "123" }. This comes in handy for dynamic rendering of content depending on the URL.
+
+The useParams hook is one of the several hooks in React router. It has been available in React router since version 5. You can use it to retrieve route parameters from the component rendered by the matching route. You will explore the React Router useParams hook and how to use it in this article.
