@@ -18,7 +18,7 @@ const RestaurantMenu = () =>{
     console.log(json);
     setResInfo(json.data);
  };
- const info = resInfo?.cards?.[2]?.card?.card?.info || {};
+ const info = resInfo?.cards[2]?.card?.card?.info || {};
  const { name, cuisines, costForTwoMessage ,avgRating} = info;
  
  //const {name,cuisines,costForTwoMessage} = resInfo?. cards[2]?.card?.card?.info;
