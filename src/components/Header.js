@@ -9,7 +9,7 @@ const Header = () => {
 
     useEffect(()=>{
         console.log("useEffect called")
-    },[BtnNameReact]);
+    },[BtnNameReact])
 
 
     return (
@@ -20,7 +20,7 @@ const Header = () => {
             <div className="nav-items">
                 <ul>
                     <li>
-                    <Link to="  ">Home</Link>
+                    <Link to="">Home</Link>
                     </li>
                     <li>
                     <Link to="/about">About Us</Link></li>

@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/ISWARYA-hash8/namaste-react#readme",
   "devDependencies": {
-    "parcel": "^2.14.1"
+    "@types/react": "^19.1.0",
+    "parcel": "^2.14.4"
   },
   "dependencies": {
     "cors": "^2.8.5",
