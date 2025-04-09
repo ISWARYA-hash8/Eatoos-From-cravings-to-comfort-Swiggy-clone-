@@ -14,20 +14,27 @@ const RestaurantMenu = () =>{
     console.log(json);
     setResInfo(json.data);
  };
-
- const {name,cuisine,cloudinaryImageId,costForTwoMessage} = resInfo?. cards[2]?.card?.card;
+ const info = resInfo?.cards?.[2]?.card?.card?.info || {};
+ const { name, cuisines, costForTwoMessage ,avgRating} = info;
  
+ //const {name,cuisines,costForTwoMessage} = resInfo?. cards[2]?.card?.card?.info;
+ const infor = resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card || {} ;
+ const {itemCards} =  infor;
+ console.log(itemCards);
     return resInfo === null ? (
     <Shimmer />
 ) : ( 
         <div className="menu" >
             <h1>{name|| "Loading ..."}</h1>
-            <h2>{cuisine}</h2>
-            <h3>{cloudinaryImageId}</h3>
+            <h2>{cuisines}</h2>
+            <h3>{costForTwoMessage}</h3>
+            <h2>{avgRating} </h2>
+
+            <h3></h3>
             <h2>Menu</h2>
             <ul>
-                <li>Biriyani</li>
-                <li>Burgers</li>
+                {itemCards.map(item =><li>  {item.card.info.name}</li>)}
+                
                 <li>Diet Coke</li>
             </ul>
         </div>
