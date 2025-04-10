@@ -13,7 +13,7 @@ class About extends Component{
        console.log("Component did update is called");
     }
     componentWillUnmount(){
-        console.log("component will unmount is called");
+        //console.log("component will unmount is called");
     }
     render() {
         console.log("Parent Render");
