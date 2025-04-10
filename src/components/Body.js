@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import RestaurantCard from './RestaurantCard';
 import resList from '../utils/mockData';
 import Shimmer from './Shimmer';
+import { Link } from 'react-router-dom';
 
 const Body = () => {
   // * React Hook -> A normal JavaScript function which is given to us by React (or) Normal JS utility functions
@@ -26,13 +27,21 @@ const Body = () => {
     );
     const json = await data.json();
     console.log(json);
-    setListOfRestaurants(json?.data?.cards[3]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-    setfilteredRestaurant(json?.data?.cards[3]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    const restaurantsData = json?.data?.cards?.find(
+      (card) => card?.card?.card?.gridElements?.infoWithStyle?.restaurants
+    )?.card?.card?.gridElements?.infoWithStyle?.restaurants || [];
+    
+    setListOfRestaurants(restaurantsData);
+    setfilteredRestaurant(restaurantsData);
+    
     console.log(setListOfRestaurants);
   };
   
-
-  return listOfRestaurants.length===0? <Shimmer/>:(   
+  if (!listOfRestaurants || listOfRestaurants.length === 0) {
+    return <Shimmer />;
+  }
+   
+  return (   
     <div className="body">
       {/* <div className="search-container">
         <input type="text" placeholder="Search Food or Restaurant" />
@@ -77,7 +86,13 @@ const Body = () => {
         {/* // * looping through the <RestaurentCard /> components Using Array.map() method */}
 
         {filteredRestaurants.map((restaurant) => (
-          <RestaurantCard key={restaurant?.info?.id} resData={restaurant} />
+          <Link
+          key={restaurant?.info?.id}
+          to={`/restaurants/${restaurant?.info?.id}`}
+          style={{ textDecoration: 'none', color: 'inherit' }}
+        >
+          <RestaurantCard resData={restaurant} />
+        </Link>
         ))}
       </div>
     </div>

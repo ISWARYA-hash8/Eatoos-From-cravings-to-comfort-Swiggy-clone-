@@ -60,6 +60,11 @@ howcan we make api call?
   // }   //not a gud practice so so shimmer UI
 
 
+we cannot call useState inside if-else
+
+--------------------------------
+single page application - Loaded once and renders again without loading
+
 -------------------------------
 >>>>>> What is React useParams?
 The useParams hook in React Router means that the dynamic parts of URLs are just easy to access within the app. It returns URL route parameters as an object where keys are the parameters on that route and values are segment pieces from the matching URL.

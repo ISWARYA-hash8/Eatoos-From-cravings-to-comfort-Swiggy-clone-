@@ -1,0 +1,6 @@
+Earlier we used to write code using class based components and now we are using functional components 
+
+---------------About class based components
+
+in the about us page we gonna showcase our team member or developre name as of now am the only one developing this
+
