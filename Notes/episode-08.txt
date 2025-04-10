@@ -4,3 +4,42 @@ Earlier we used to write code using class based components and now we are using 
 
 in the about us page we gonna showcase our team member or developre name as of now am the only one developing this
 
+-----------------
+>>> life cycle of parent child relationship 
+first the constructor is called , then the parent render is called 
+it triggeres the child and the child method are triggered
+it call the childconstructror
+then render is called of child 
+then the child mount is called 
+>>>> the component did mount is called once the child rendered successfully 
+after tht the parent did mount is called after the parent successfullly compleed it rendering 
+
+-------------------------
+why mount is important ?
+component did mount is used to make an API call 
+
+----------------
+React lifecycel diagram 
+Link --> https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
+it will finish the render phase of both the child .
+
+---->>and commit it both together and updates the dom aftet that the "ComonentDidMount" is executed
+
+
+--------------------
+Now we have Github api which is used to fetch user data
+
+---------MOUNTING LIFECYCLE---------
+constructor(dummy)
+Render(dummy)
+          <HTML dummy>
+
+component Did Mount 
+ <APIcall>
+ <this.setstate>
+ --> update cycel begins and the set state render method is called with API data 
+
+ Now the webpage is loaded HTMl is loaded with API data
+
+ componentId 
