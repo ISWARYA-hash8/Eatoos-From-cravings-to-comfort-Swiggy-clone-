@@ -10,4 +10,4 @@ const Error = () =>{
         </div>
     )
 }
-export default Erro;
+export default Error;
