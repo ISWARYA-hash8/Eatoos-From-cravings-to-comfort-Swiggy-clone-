@@ -10,7 +10,7 @@ class About extends Component{
         console.log("Parent component did mount is called");
     }
     componentDidUpdate(){
-       // console.log("Component did update is called");
+       console.log("Component did update is called");
     }
     componentWillUnmount(){
         console.log("component will unmount is called");
