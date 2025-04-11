@@ -231,7 +231,9 @@ body {
 }
 
 .user:hover {
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-  transform: translateY(-4px);
-  background-color: #f9f9f9;
+  box-shadow: 0 10px 30px rgba(255, 150, 80, 0.2); /* soft warm glow */
+  transform: scale(1.02);
+  background-color: #cac8cc; /* creamy peach */
+  border: 1px solid #3c3734;
 }
+
