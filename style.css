@@ -228,12 +228,17 @@ body {
   max-width: 500px;
   margin: 20px auto;
   transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(4px);
+  transition: all 0.3s ease;
 }
 
 .user:hover {
-  box-shadow: 0 10px 30px rgba(255, 150, 80, 0.2); /* soft warm glow */
-  transform: scale(1.02);
-  background-color: #cac8cc; /* creamy peach */
-  border: 1px solid #3c3734;
+  background: linear-gradient(145deg, #fff, #fdfdfd);
+  border: 1px solid #e23744;
+  box-shadow: 0 12px 32px rgba(226, 55, 68, 0.25), 
+              0 4px 12px rgba(0, 0, 0, 0.05);
+  transform: scale(1.03) translateY(-8px);
+  transition: all 0.3s ease;
+  color: #2c2c2c;
 }
 
