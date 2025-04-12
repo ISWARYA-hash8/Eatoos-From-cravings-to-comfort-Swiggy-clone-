@@ -1,0 +1,24 @@
+what is custom Hooks?
+it is a normal js utility function
+------------------------------------------------
+IT IS MANDATORY TO WRITE USE AS PREFIX IN CUSTOMHOOOKS?
+
+
+not mandatroy but it is best practice ,,,,,, lot of project use linter so it will throw erro if we dont use 
+'use'
+
+------------------------------->>>>
+
+What is a linter in React?
+A linter is a developer tool that analyzes source code for errors, vulnerabilities, and stylistic issues to improve code quality.
+
+--------------------------------------->>>
+what is lazy load????
+
+what is suspense?
+
+
+two files created one is whole js bundle and another is grocery --->>
+
+
+how to distribute application into smaller smaller chunks??

@@ -19,7 +19,7 @@ class About extends Component{
         console.log("Parent Render");
         return (
             <div>
-                        <h1>About Class Component </h1>
+                        <h1>Quick Note about me</h1>
                        <User name={"iswarya"}/>
                        <UserClass name ={"Iswarya (class function)"}  Location ={ "Tiruppur" }/>
                       

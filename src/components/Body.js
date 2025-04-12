@@ -3,6 +3,8 @@ import RestaurantCard from './RestaurantCard';
 import resList from '../utils/mockData';
 import Shimmer from './Shimmer';
 import { Link } from 'react-router-dom';
+import useOnlineStatus from '../utils/useOnlineStatus';
+
 
 const Body = () => {
   // * React Hook -> A normal JavaScript function which is given to us by React (or) Normal JS utility functions
@@ -36,7 +38,8 @@ const Body = () => {
     
     console.log(setListOfRestaurants);
   };
-  
+  const OnlineStatus = useOnlineStatus();
+  if(OnlineStatus === false) return <h1 className='nettag'>Please check your internet connection</h1>;
   if (!listOfRestaurants || listOfRestaurants.length === 0) {
     return <Shimmer />;
   }
