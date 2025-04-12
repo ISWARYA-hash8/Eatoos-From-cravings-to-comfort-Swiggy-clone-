@@ -7,7 +7,7 @@ import { createBrowserRouter , Outlet, RouterProvider } from 'react-router-dom';
 import About from './components/About';
 import Contact from './components/Contact';
 import Error from './components/Error';
-
+import GroceryList  from './components/GroceryList';
 import RestaurantMenu from './components/RestaurantMenu';
 //import Grocery from './components/Grocery';
 /* Components of Our Food-Order App
@@ -107,7 +107,7 @@ const appRouter = createBrowserRouter([{
     },
     {
       path:"/grocery",
-      element:<Suspense fallback={<h1>Loading...</h1>}><Grocery /></Suspense>
+      element:<Suspense fallback={<h1>Loading...</h1>}><GroceryList /></Suspense>
     },
     {
       path : "/restaurants/:resId",
