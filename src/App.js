@@ -71,7 +71,7 @@ const currYear = new Date().getFullYear();
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className='flex justify-center items-center h-20  bg-green-100 rounded-sm'>
       <p>
         Copyright &copy; {currYear}, Made with 💗 by <strong>Ishu</strong>
       </p>

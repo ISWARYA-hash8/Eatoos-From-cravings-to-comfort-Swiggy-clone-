@@ -11,7 +11,7 @@ const RestaurantCard = (props) => {
         costForTwo,
         sla,
     } = resData?.info;
-    
+     
 
     return (
         <div
