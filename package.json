@@ -23,6 +23,7 @@
   "homepage": "https://github.com/ISWARYA-hash8/namaste-react#readme",
   "devDependencies": {
     "@types/react": "^19.1.0",
+    "autoprefixer": "^10.4.21",
     "init": "^0.1.2",
     "npx": "^10.2.2",
     "parcel": "^2.14.4",

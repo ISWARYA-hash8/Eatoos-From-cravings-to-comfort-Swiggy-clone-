@@ -52,11 +52,11 @@ const Body = () => {
       </div> */}
       <div className="filter">
         <div className='search'>
-          <input type="text" className='search-box' value={searchText}
+          <input type="text" className='border border-solid border-black' value={searchText}
           onChange={(e) => {
             setSearchText(e.target.value);
           }} />
-          <button onClick={() =>{
+          <button className='px-3 py-1 bg-green-100 m-4 border rounded-lg border-black' onClick={() =>{
             //filtert the restaurant
             console.log("SearchText");
 
@@ -70,8 +70,9 @@ const Body = () => {
           }}>search</button>
         </div>
         
-        <button
-          className="filter-btn"
+        <div>
+          <button
+          className='px-4 py-2 bg-green-100 rounded-lg'
           onClick={() => {
             // * Filter logic
             const filteredList = listOfRestaurants.filter(
@@ -84,8 +85,9 @@ const Body = () => {
         >
           Top Rated Restaurants
         </button>
+        </div>
       </div>
-      <div className="res-container">
+      <div className="flex flex-wrap p-4 border shadow-sm border-black">
         {/* // * looping through the <RestaurentCard /> components Using Array.map() method */}
 
         {filteredRestaurants.map((restaurant) => (
