@@ -18,8 +18,8 @@ class About extends Component{
     render() {
         console.log("Parent Render");
         return (
-            <div>
-                        <h1>Quick Note about me</h1>
+            <div className="border border-slate-500 rounded-xl ">
+                        <h1 className="text-amber-950" >Quick Note about me</h1>
                        <User name={"iswarya"}/>
                        <UserClass name ={"Iswarya (class function)"}  Location ={ "Tiruppur" }/>
                       
