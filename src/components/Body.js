@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import RestaurantCard from './RestaurantCard';
+import RestaurantCard,{withDiscountLabel} from './RestaurantCard';
 import resList from '../utils/mockData';
 import Shimmer from './Shimmer';
 import { Link } from 'react-router-dom';
@@ -16,7 +16,9 @@ const Body = () => {
 
   const [filteredRestaurants,setfilteredRestaurant] = useState([]);
   const [searchText,setSearchText] = useState("");
+  
 
+  const RestaurantCardDiscount = withDiscountLabel(RestaurantCard);
 console.log(listOfRestaurants)
   useEffect(()=>{
     console.log("UseEffect called");
@@ -89,14 +91,15 @@ console.log(listOfRestaurants)
       </div>
       <div className="flex flex-wrap p-4 border shadow-sm border-black">
         {/* // * looping through the <RestaurentCard /> components Using Array.map() method */}
-
+   
         {filteredRestaurants.map((restaurant) => (
           <Link
           key={restaurant?.info?.id}
           to={`/restaurants/${restaurant?.info?.id}`}
           style={{ textDecoration: 'none', color: 'inherit' }}
         >
-          <RestaurantCard resData={restaurant} />
+          {/** if the restaurant have discount then add a discount lable to it */}
+        {  restaurant.info.externalRatings.isOpen ? <RestaurantCardDiscount/> :<RestaurantCard resData={restaurant} /> }
         </Link>
         ))}
       </div>
