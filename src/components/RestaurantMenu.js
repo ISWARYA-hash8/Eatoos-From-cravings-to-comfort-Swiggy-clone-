@@ -28,7 +28,7 @@ const RestaurantMenu = () =>{
     return resInfo === null ? (
     <Shimmer />
 ) : ( 
-        <div className="menu" >
+        <div className="m-4 p-4" >
             <h1>{name|| "Loading ..."}</h1>
             <h2>{cuisines}</h2>
             <h3>{costForTwoMessage}</h3>
