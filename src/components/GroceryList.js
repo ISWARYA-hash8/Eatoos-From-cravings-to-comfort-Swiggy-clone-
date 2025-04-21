@@ -12,7 +12,7 @@ const GroceryList = () => {
       <h2 className="text-center border border-spacing-4">Grocery Products</h2>
       <ul>
         {grocInfo.map((item) => (
-          <li  className='flex flex-wrap px-4 py-4 m-2' key={item.id}>
+          <li  className='flex flex-wrap px-4 py-4 m-2 border border-black' key={item.id}>
             <img className='border p-4 border-spacing-7 bg-slate-400' src={item.image} alt={item.title} width="100" />
             <p className="text-center"><strong>{item.title}</strong></p>
             <p>₹{item.price}</p>
