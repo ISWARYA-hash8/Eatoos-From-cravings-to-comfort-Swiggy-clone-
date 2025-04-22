@@ -49,7 +49,7 @@ FOOD APP
 -------
 howcan we make api call?
 
-
+An API call in React refers to making a request to a web API from a React application. We can make an API call with: XMLHttpRequest, Fetch API or Axios. React is a JavaScript library for building single-page applications. It has become popular for building both single-page applications (SPAs) and mobile applications.
 
 
 
