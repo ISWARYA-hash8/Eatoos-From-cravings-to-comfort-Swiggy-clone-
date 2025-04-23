@@ -27,10 +27,5 @@ FoodieGo is a frontend-only food delivery web app that allows users to browse re
 
 ---
 
-## 🔧 Getting Started
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/foodiego-frontend.git
-cd foodiego-frontend
 
