@@ -1,74 +1,36 @@
-#namaste react --> looks good
-
-#parcel
--Dev Build
--local server
--HMR ( hot module replacement ) --> automatically refresh the page 
-Parcel is a beast
-
--File Watching Algorithm - written in c++
--Faster Builds( doing caching things up like uses very less second)
--Image optimization
--Minification
--Bundling
--Compress
--consistent Hashing
--Code spliting
--Diffrential Bundling --> to support older browsers
--Diagnostic
--Error handling
--HTTPs ---> to host in HTTPs
--Tree Shaking --> if you have 100 of methods but you use few then it     removes unused code
-
-FOOD APP
-/*
-    1. Header
-        - Logo
-        - Nav Items
-    2. Body
-        - Search
-        - Restaurant Card
-    3. Footer
-        - Copyright
-        - Links
-        - Address
-        - Contact
-*/
 
 
 
+# 🍔 FoodieGo - Frontend Food Delivery App
 
-#React Hooks
-(NOrmal js utility function)
+FoodieGo is a frontend-only food delivery web app that allows users to browse restaurants, explore menus, add items to cart, and view an order summary.
 
---UseState()  (used 80%) --> SuperPowerful state variables in react
---useEffect()
+---
 
+## 🖼️ Screens / Features
 
+- 👋 Landing page with featured restaurants
+- 🏬 Restaurant list and food menu display
+- 🛒 Add to Cart & Cart page
+- 📦 Order summary screen
+- 📱 Responsive design (mobile + desktop)
 
--------
-howcan we make api call?
+---
 
-An API call in React refers to making a request to a web API from a React application. We can make an API call with: XMLHttpRequest, Fetch API or Axios. React is a JavaScript library for building single-page applications. It has become popular for building both single-page applications (SPAs) and mobile applications.
+## 🛠️ Tech Stack
 
+- ⚛️ React.js
+- 💨 Tailwind CSS (or your CSS framework)
+- 🔄 React Router (for page routing)
+- 📦 Context API / Redux (for state management, if used)
+- 📷 Optional: Dummy images / food data in JSON
 
+---
 
+## 🔧 Getting Started
 
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/foodiego-frontend.git
+cd foodiego-frontend
 
-// if(listOfRestaurants.length===0){
-  //   return <h1>loading....</h1>
-  // }   //not a gud practice so so shimmer UI
-
-
-we cannot call useState inside if-else
-
---------------------------------
-single page application - Loaded once and renders again without loading
-
--------------------------------
->>>>>> What is React useParams?
-The useParams hook in React Router means that the dynamic parts of URLs are just easy to access within the app. It returns URL route parameters as an object where keys are the parameters on that route and values are segment pieces from the matching URL.
-
-For example, in a route like /blog/:id, you could access id using useParams from the component being rendered. Given the URL /blog/123, useParams() will return { id: "123" }. This comes in handy for dynamic rendering of content depending on the URL.
-
-The useParams hook is one of the several hooks in React router. It has been available in React router since version 5. You can use it to retrieve route parameters from the component rendered by the matching route. You will explore the React Router useParams hook and how to use it in this article.
