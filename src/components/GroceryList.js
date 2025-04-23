@@ -16,7 +16,7 @@ const GroceryList = () => {
             <img className='border p-4 border-spacing-7 bg-slate-400' src={item.image} alt={item.title} width="100" />
             <p className="text-center"><strong>{item.title}</strong></p>
             <p>₹{item.price}</p>
-            <p className="text-wrap">Brand: {item.brand}</p>
+            <p className="text-wrap border border-black">Brand: {item.brand}</p>
           </li>
         ))}
       </ul>
