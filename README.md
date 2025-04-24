@@ -1,9 +1,9 @@
 
 
 
-# 🍔 FoodieGo - Frontend Food Delivery App
+# 🍔EATOOS - Frontend Food Delivery App
 
-FoodieGo is a frontend-only food delivery web app that allows users to browse restaurants, explore menus, add items to cart, and view an order summary.
+ Eatoos is a frontend-only food delivery web app that allows users to browse restaurants, explore menus, add items to cart, and view an order summary.
 
 ---
 
@@ -22,8 +22,8 @@ FoodieGo is a frontend-only food delivery web app that allows users to browse re
 - ⚛️ React.js
 - 💨 Tailwind CSS (or your CSS framework)
 - 🔄 React Router (for page routing)
-- 📦 Context API / Redux (for state management, if used)
-- 📷 Optional: Dummy images / food data in JSON
+- 📦 Context API 
+-
 
 ---
 
