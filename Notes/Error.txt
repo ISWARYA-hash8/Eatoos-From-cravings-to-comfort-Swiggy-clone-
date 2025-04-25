@@ -18,9 +18,7 @@ It integrates remote changes before your changes and keeps the history clean (li
 In case of merge conflicts during pull:
 Git will ask you to resolve conflicts manually. After fixing them:
 
-bash
-Copy
-Edit
+
 git add .
 git rebase --continue
 Then:
