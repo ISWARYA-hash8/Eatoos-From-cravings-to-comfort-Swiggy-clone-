@@ -23,7 +23,5 @@ git add .
 git rebase --continue
 Then:
 
-bash
-Copy
-Edit
+
 git push origin main
