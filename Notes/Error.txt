@@ -1,0 +1,31 @@
+Error Breakdown:
+
+! [rejected] main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/ISWARYA-hash8/namaste-react.git'
+hint: Updates were rejected because the remote contains work that you do not have locally.
+🔧 Solution:
+Run the following command before pushing:
+
+
+git pull origin main --rebase
+Then push again:
+
+
+git push origin main
+Why --rebase?
+It integrates remote changes before your changes and keeps the history clean (linear), avoiding unnecessary merge commits.
+
+In case of merge conflicts during pull:
+Git will ask you to resolve conflicts manually. After fixing them:
+
+bash
+Copy
+Edit
+git add .
+git rebase --continue
+Then:
+
+bash
+Copy
+Edit
+git push origin main
