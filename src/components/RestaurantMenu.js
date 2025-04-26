@@ -16,6 +16,7 @@ const RestaurantMenu = () =>{
       
       const {resId} = useParams();
       const resInfo = useRestaurantMenu(resId);
+      const [showIndex,setShowIndex] = useState(null);
  const info = resInfo?.cards[2]?.card?.card?.info || {};
  const { name, cuisines, costForTwoMessage ,avgRating} = info;
  
@@ -46,7 +47,11 @@ const RestaurantMenu = () =>{
                 
                 
             </ul> */}
-            {categories.map((category) =><RestaurantCategory data={category?.card?.card}/>)}
+            {categories.map((category,index) =>
+            <RestaurantCategory key = {category?.card?.card?.title}
+             data={category?.card?.card} 
+             showItems={index===showIndex && true}
+             setShowIndex={()=>setShowIndex(index)}/>)}
         </div>
     );
 };
