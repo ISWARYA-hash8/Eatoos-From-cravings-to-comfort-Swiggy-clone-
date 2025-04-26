@@ -43,3 +43,9 @@ component Did Mount
  Now the webpage is loaded HTMl is loaded with API data
 
  componentId 
+
+
+
+ -----------------------------
+ what is Accordion?
+
