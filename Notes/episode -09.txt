@@ -22,3 +22,15 @@ two files created one is whole js bundle and another is grocery --->>
 
 
 how to distribute application into smaller smaller chunks??
+
+
+
+---------------------------------------------
+#Redux toolkit
+
+-Install @reduxjs/toolkit and react-reduxjs
+ -Build our store 
+ -connect our store to the app
+ --slice(cart Slice)
+ --dispatch(action)
+ -selector  

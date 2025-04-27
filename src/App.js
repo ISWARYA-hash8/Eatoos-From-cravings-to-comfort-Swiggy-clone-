@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import ReactDOM from 'react-dom/client';
 import React, {lazy,Suspense} from "react";
 import Header from './components/Header';
@@ -9,6 +9,11 @@ import Contact from './components/Contact';
 import Error from './components/Error';
 import GroceryList  from './components/GroceryList';
 import RestaurantMenu from './components/RestaurantMenu';
+import UserContext from './utils/UserContext';
+import { useState,useEffect } from 'react';
+import { Provider } from 'react-redux';
+import appStore from './utils/appStore';
+import Cart from './components/Cart';
 //import Grocery from './components/Grocery';
 /* Components of Our Food-Order App
  * Header
@@ -66,10 +71,12 @@ import RestaurantMenu from './components/RestaurantMenu';
  *        import { Component } from 'path'; 
  
 */
+
 const Grocery = lazy(() => import("./components/Grocery"));
 const currYear = new Date().getFullYear();
 
 const Footer = () => {
+  
   return (
     <footer className='flex justify-center items-center h-20  bg-green-100 rounded-sm'>
       <p>
@@ -79,14 +86,31 @@ const Footer = () => {
   );
 };
 
+
+
 const AppLayout = () => {
+
+  const [userName,setUserName] = useState();
+  useEffect(() =>{
+    const data = {
+      name : "Iswarya",
+    };
+    setUserName(data.name);
+  
+  },[]);
   console.log(<Body />);
   return (
+    <Provider store={appStore}>
+    <UserContext.Provider   value = {{
+      loggedInUser : userName,
+    }}>
     <div className="app">
       <Header />
       <Outlet />
       <Footer />
     </div>
+    </UserContext.Provider>
+    </Provider>
   );
 };
 const appRouter = createBrowserRouter([{
@@ -114,6 +138,10 @@ const appRouter = createBrowserRouter([{
       element: <RestaurantMenu />,
 
     },
+    {
+      path : "/Cart",
+      element : <Cart/>,
+    }
 
   ],
   errorElement:<Error />,

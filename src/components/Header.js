@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 //import Logo from '../asset/Logo.png';
 import useOnlineStatus from '../utils/useOnlineStatus';
 import UserContext from '../utils/UserContext';
+import { useSelector } from 'react-redux';
 const Header = () => {
 
     
@@ -14,7 +15,10 @@ const Header = () => {
     useEffect(()=>{
         console.log("useEffect called")
     },[BtnNameReact])
+   
 
+    // subscribing to the store using Selector --> is a hook   we are subscribing to it
+    const cartItems = useSelector( (store)  =>store.cart.items);
 
     return (
         <div className="flex justify-between bg-rose-100 shadow-sm mb-2 h-40 rounded-lg sm:bg-yellow-50 lg:bg-green-50 ">
@@ -37,7 +41,8 @@ const Header = () => {
                     <li className='flex m-4 border border-black px-4 rounded-xl'>
                         <Link to ="/grocery">Grocery</Link>
                     </li>
-                    <li className='flex m-4 border border-black px-4 rounded-xl'>Cart</li>
+                    <li className='flex m-4 border border-black px-4 rounded-xl '>
+                        <Link to = "/Cart">Cart {cartItems.length}</Link> </li>
                     <button className='flex m-4 border border-black px-4 rounded-xl' onClick={()=>{BtnNameReact==="Login"? setBtnNameReact("Logout"):setBtnNameReact("Login");
 
                     }}>

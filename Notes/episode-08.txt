@@ -52,3 +52,12 @@ what is props drilling?
 
 context in react?
 
+
+
+
+In class base component we cannot use hooks 
+then how will we use that userContext???
+
+
+Do <userContext.consumer>
+
