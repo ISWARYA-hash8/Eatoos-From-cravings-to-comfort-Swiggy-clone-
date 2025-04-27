@@ -47,5 +47,8 @@ component Did Mount
 
 
  -----------------------------
- what is Accordion?
+what is Accordion?
+what is props drilling?
+
+context in react?
 
