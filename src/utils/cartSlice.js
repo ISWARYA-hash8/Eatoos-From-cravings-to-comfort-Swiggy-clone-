@@ -1,4 +1,4 @@
-import {createSlice} from "@reduxjs/toolkit";
+import {createSlice ,current } from "@reduxjs/toolkit";
 const cartSlice = createSlice({
     name : 'cart',
     initialState : {
@@ -13,7 +13,10 @@ const cartSlice = createSlice({
           },
           clearCart : (state) =>{
             state.items.length = 0; //[]
+            //console.log(current(state))
 
+            // RTK states either you have to mutate the existing state or return a new state
+             // or return { items: []}
           },
     },
 
