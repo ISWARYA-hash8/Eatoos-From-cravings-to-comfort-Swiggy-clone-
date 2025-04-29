@@ -1,0 +1,2479 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                        "text": "Thena Catering Tiffin Centre",
+                        "headerStyling": {
+                            "textColor": "text_Highest_Emphasis",
+                            "textVariant": "header_H3_Black"
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+                        "tabs": [
+                            {
+                                "id": "Order Online",
+                                "title": "Order Online"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "864496",
+                            "name": "Thena Catering Tiffin Centre",
+                            "city": "Erode",
+                            "slugs": {
+                                "restaurant": "thena-catering-tiffin-centre-gobichettipalayam-gobichettipalayam",
+                                "city": "erode"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/1/851b9fbc-b105-4f1a-a72b-a902e03b6f5f_864496.jpg",
+                            "locality": "Gobichettipalayam",
+                            "areaName": "Sathyamangalam",
+                            "costForTwo": "20000",
+                            "costForTwoMessage": "₹200 for two",
+                            "cuisines": [
+                                "South Indian"
+                            ],
+                            "avgRating": 4.4,
+                            "feeDetails": {
+                                "restaurantId": "864496",
+                                "fees": [
+                                    {}
+                                ]
+                            },
+                            "parentId": "507029",
+                            "avgRatingString": "4.4",
+                            "totalRatingsString": "142 ratings",
+                            "sla": {
+                                "restaurantId": "864496",
+                                "deliveryTime": 33,
+                                "minDeliveryTime": 30,
+                                "maxDeliveryTime": 35,
+                                "lastMileTravel": 1.7,
+                                "serviceability": "SERVICEABLE",
+                                "stressFactor": 1,
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                "zoneId": 4986,
+                                "slaString": "30-35 MINS",
+                                "lastMileTravelString": "1.7 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2025-04-29 22:00:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "shortDescriptionList": [
+                                    {
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Flat ₹25 off| Above ₹299",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off upto ₹150|Use AMEXCORP Above ₹699",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "thena-catering-tiffin-centre-gobichettipalayam-gobichettipalayam",
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "LAYAM PANCHAYAT, Sathyamangalam"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "South Indian"
+                                }
+                            ],
+                            "totalRatings": 142,
+                            "aggregatedDiscountInfoV2": {
+                                "shortDescriptionList": [
+                                    {
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Flat ₹25 off| Above ₹299",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off upto ₹150|Use AMEXCORP Above ₹699",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "couponDetailsCta": "View coupon details"
+                            },
+                            "type": "F",
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/864496"
+                            },
+                            "ratingSlab": "RATING_SLAB_5",
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "hasBestsellerItems": true,
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "11.49032837,77.244199",
+                            "backgroundImageOverlayInfo": {},
+                            "featuredSectionInfo": {},
+                            "hasBoltItems": true
+                        },
+                        "analytics": {}
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+                        "sectionId": "POP_UP_CROUTON_MENU"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 3,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10,
+                                    "bottom": 16
+                                }
+                            },
+                            "scrollBar": {}
+                        },
+                        "id": "offerCollectionWidget_UX4",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹25 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/31/7e6e642d-f83e-4e02-b302-e850c00c3cc7_BHIMMenuVisibilityLogo1.png",
+                                            "offerIds": [
+                                                "f7a5e99c-1612-4469-9d19-d55c39393acb"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "NO CODE REQUIRED",
+                                            "description": "ABOVE ₹299",
+                                            "offerType": "offers",
+                                            "restId": "864496",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/31/7e6e642d-f83e-4e02-b302-e850c00c3cc7_BHIMMenuVisibilityLogo1.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "NO CODE REQUIRED"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "20% OFF UPTO ₹150",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/4/3/7f30885f-0cbb-4a38-8b4f-741efa6cbe84_AMEXMenuLogo.png",
+                                            "offerIds": [
+                                                "bb2ff398-29d2-4033-9281-f4e128f62653"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE AMEXCORP",
+                                            "description": "ABOVE ₹699",
+                                            "offerType": "offers",
+                                            "restId": "864496",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/4/3/7f30885f-0cbb-4a38-8b4f-741efa6cbe84_AMEXMenuLogo.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE AMEXCORP"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹200 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/31/6180c0fd-3077-4f26-ab73-6c07e10adaa8_AxisMenuLogo.png",
+                                            "offerIds": [
+                                                "f5b0ba92-08b3-49af-af6d-749dd3fe4f81"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE AXIS200",
+                                            "description": "ABOVE ₹1000",
+                                            "offerType": "offers",
+                                            "restId": "864496",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/31/6180c0fd-3077-4f26-ab73-6c07e10adaa8_AxisMenuLogo.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE AXIS200"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                },
+                                "loyaltyDiscoverPresentationInfo": {
+                                    "logoCtx": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "topRatedFilter": {
+                                                "attributes": {
+                                                    "displayText": "Ratings 4.0+"
+                                                }
+                                            },
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            },
+                                            "vegFilter": {
+                                                "attributes": {
+                                                    "displayText": "VEG"
+                                                }
+                                            },
+                                            "nonvegFilter": {
+                                                "attributes": {
+                                                    "displayText": "NONVEG"
+                                                }
+                                            },
+                                            "bolt": {
+                                                "attributes": {
+                                                    "displayText": "10 Mins Delivery",
+                                                    "displayImage": "bolt/bolt%2011.png",
+                                                    "unselectedDisplayImage": "bolt/bolt%2011.png"
+                                                }
+                                            }
+                                        },
+                                        "relevance": {
+                                            "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                            "sectionId": "MENU_FILTER_TOGGLE"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Recommended",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424561",
+                                                            "name": "Chicken biryani combo",
+                                                            "category": "Combos",
+                                                            "inStock": 1,
+                                                            "price": 12800,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.0",
+                                                                    "ratingCount": "9 ratings",
+                                                                    "ratingCountV2": "9"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424560",
+                                                            "name": "Egg biryani combo",
+                                                            "category": "Combos",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/17/1c7eaa5c-f0bc-4d0c-b91f-725215a206b7_e5f553eb-60ed-4240-aa03-7ce7aa5832f4.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "price": 11000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.5",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424562",
+                                                            "name": "Curd rice with chicken pallipalayam",
+                                                            "category": "Combos",
+                                                            "inStock": 1,
+                                                            "price": 11000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "2.9",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424580",
+                                                            "name": "Paniyaram [6 pieces]",
+                                                            "category": "Breakfast",
+                                                            "description": "Delicious and delectable fried dumplings perfect for a savory breakfast treat.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 3000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "11 ratings",
+                                                                    "ratingCountV2": "11"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424581",
+                                                            "name": "Normal dosa",
+                                                            "category": "Breakfast",
+                                                            "description": "A classic and flavorful vegetarian dish perfect for a satisfying and comforting breakfast.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 3500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424582",
+                                                            "name": "Egg biryani",
+                                                            "category": "Biryani",
+                                                            "inStock": 1,
+                                                            "price": 11000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424590",
+                                                            "name": "Curd rice",
+                                                            "category": "Variety Rice",
+                                                            "description": "Creamy and comforting, this traditional rice dish is a delightful combination of smooth curd and fragrant spices.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/2fb644aa-2f97-4698-96af-b287a6f54c96_05bb0f48-c48e-4ee9-ac51-9b0beaa77e5c.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.9",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424585",
+                                                            "name": "Sambar rice",
+                                                            "category": "Variety Rice",
+                                                            "description": "A flavorful and aromatic blend of rice and lentils in a delectable assortment of vegetable-infused goodness.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/976b9d11-122f-4dc0-b8bc-5ad42adbf60d_01c833cc-47bf-4a43-b963-28c96467938c.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.0",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424589",
+                                                            "name": "Puli sadham",
+                                                            "category": "Variety Rice",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/a2252114-8a68-43c5-bdb7-2fbb38d6bd67_6a0ef123-55e9-43aa-b6c4-f6af6a372da7.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424588",
+                                                            "name": "Lemon rice",
+                                                            "category": "Variety Rice",
+                                                            "description": "A zesty and flavorful rice dish infused with refreshing lemon, creating a perfect harmony of tangy and aromatic flavors.",
+                                                            "imageId": "47bac82bcec215537ece83acdf80fbae",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424587",
+                                                            "name": "Tomato rice",
+                                                            "category": "Variety Rice",
+                                                            "description": "A flavorful and aromatic medley of rice infused with the essence of tangy tomatoes and aromatic spices.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424598",
+                                                            "name": "Pallipalayam chicken",
+                                                            "category": "Starters",
+                                                            "description": "Delicious chicken starter bursting with rich flavors.",
+                                                            "imageId": "6bc4641359e3ac36c012df2ab46ba2e3",
+                                                            "inStock": 1,
+                                                            "price": 15000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.8",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424595",
+                                                            "name": "Dragon chicken dry",
+                                                            "category": "Starters",
+                                                            "inStock": 1,
+                                                            "price": 18000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424597",
+                                                            "name": "Chicken manchurian gravy",
+                                                            "category": "Starters",
+                                                            "description": "A delectable blend of tender chicken in a flavorful, savory gravy that will leave your taste buds craving for more.",
+                                                            "imageId": "rdjfski76oty5gsob1lj",
+                                                            "inStock": 1,
+                                                            "price": 15000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424599",
+                                                            "name": "Pepper pallipalayam chicken",
+                                                            "category": "Starters",
+                                                            "description": "A delightful succulent chicken starter seasoned with aromatic spices and cooked to perfection.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/05f4db57-71e7-41fe-895a-4da94431d637_299073e0-4bdb-45ea-811c-596bcd8c4609.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "price": 16000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "2.6",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424593",
+                                                            "name": "Boneless chicken 65",
+                                                            "category": "Starters",
+                                                            "description": "Delicious boneless chicken starter bursting with irresistible flavors.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/fc955ced-f8d1-4b74-b16a-c520d47b7a99_4f4091d6-810e-4a50-8af7-8773f61707a3.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "price": 12500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424592",
+                                                            "name": "Chicken 65",
+                                                            "category": "Starters",
+                                                            "inStock": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.3",
+                                                                    "ratingCount": "6 ratings",
+                                                                    "ratingCountV2": "6"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424603",
+                                                            "name": "Chicken fried rice",
+                                                            "category": "Fried Rice",
+                                                            "description": "A flavorful blend of tender chicken and aromatic rice stir-fried to perfection, creating a delectable dish that will leave you craving for more.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/29/fb1dcd67-cce7-4642-92b7-d2139bd1fe50_4ea86d79-bd00-48d3-85a1-98dbe077e151.jpg",
+                                                            "inStock": 1,
+                                                            "price": 14000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.7",
+                                                                    "ratingCount": "8 ratings",
+                                                                    "ratingCountV2": "8"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424602",
+                                                            "name": "Egg fried rice",
+                                                            "category": "Fried Rice",
+                                                            "description": "A flavorful and satisfying fried rice prepared with tender eggs and a medley of delightful ingredients.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/3/47d0becb-1232-4f5e-9844-155b6bf413c7_7fbd02c4-97e6-48b3-8782-a7d200c17f8f.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "price": 11000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424604",
+                                                            "name": "Chicken fried noodles",
+                                                            "category": "Noodles",
+                                                            "description": "Deliciously fried noodles with tender chicken, offering a mouthwatering combination of flavors and textures.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/3938133a-bc71-4706-9a44-614f5f599153_f0492376-7e71-4ac6-9157-1ac57056f4b3.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "price": 14000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "type": "CATEGORY_TYPE_RECOMMENDED",
+                                            "subtitleSuffix": {},
+                                            "categoryId": "-1"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Breakfast",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424580",
+                                                            "name": "Paniyaram [6 pieces]",
+                                                            "category": "Breakfast",
+                                                            "description": "Delicious and delectable fried dumplings perfect for a savory breakfast treat.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 3000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "11 ratings",
+                                                                    "ratingCountV2": "11"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424563",
+                                                            "name": "Idli [2 pieces]",
+                                                            "category": "Breakfast",
+                                                            "description": "Soft and fluffy South Indian favorite, perfect for a nourishing and delightful morning start.",
+                                                            "imageId": "saybffiwgxfk8yhun970",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 3400,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.9",
+                                                                    "ratingCount": "56 ratings",
+                                                                    "ratingCountV2": "56"
+                                                                }
+                                                            },
+                                                            "isBolt": true,
+                                                            "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424569",
+                                                            "name": "Onion dosa",
+                                                            "category": "Breakfast",
+                                                            "description": "A wholesome and flavorful South Indian breakfast delight packed with the delightful essence of onions.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/12/55bbbab2-71a1-474c-830a-363b74b1d68d_f0635319-a3dd-49bd-8daa-f97ff93819f4.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 4500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.4",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424564",
+                                                            "name": "Ghee podi idli [2 pieces]",
+                                                            "category": "Breakfast",
+                                                            "description": "A delectable breakfast treat featuring idli coated in aromatic Ghee Podi, tantalizing your taste buds with its impeccable flavors.",
+                                                            "imageId": "rva86omktd08hdkoljmw",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 4000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.9",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424568",
+                                                            "name": "Poori with potato masala",
+                                                            "category": "Breakfast",
+                                                            "imageId": "pwxomjolo2jgyqiirmz7",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.1",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424565",
+                                                            "name": "Pepper idli [2 pieces]",
+                                                            "category": "Breakfast",
+                                                            "description": "Savory and seasoned, this breakfast delight encapsulates the essence of a delightful morning.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/31/5bc67f7d-67fe-4507-8f8f-4e406c9964b0_87814dba-5af6-420b-af62-3e1cfe3dee69.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 5000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424567",
+                                                            "name": "Ghee pongal",
+                                                            "category": "Breakfast",
+                                                            "description": "Indulge in a scrumptious, traditional breakfast delight bursting with flavors from South India, perfect to start your day right.",
+                                                            "imageId": "7a1e5c1304bafdd6af7defbae37d999a",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424566",
+                                                            "name": "Idli sambar",
+                                                            "category": "Breakfast",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 5000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424575",
+                                                            "name": "Onion uttapam",
+                                                            "category": "Breakfast",
+                                                            "description": "A flavorful breakfast option with a crispy base and a delightful onion topping.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/912c58c1-a0d8-40a4-ad45-73fc1863fbe2_2c217cdf-fa96-4b0c-8e7c-b37887d14954.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 4500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.9",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424571",
+                                                            "name": "Ghee dosa",
+                                                            "category": "Breakfast",
+                                                            "description": "A delectable and savory Indian pancake made with a touch of aromatic perfection.",
+                                                            "imageId": "4d8edaa7d1057b72197337cbe96a3836",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 4500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424577",
+                                                            "name": "Podi uttapam",
+                                                            "category": "Breakfast",
+                                                            "description": "A flavorful and crispy South Indian breakfast delight loaded with a delightful blend of spices.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/c9e103fe-325b-4aa4-a53f-f915c2b8eaff_5844fdb4-6d41-4d0f-9e1d-04ae1029651d.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 4500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424574",
+                                                            "name": "Uttapam",
+                                                            "category": "Breakfast",
+                                                            "description": "A flavorful and satisfying South Indian breakfast delight, perfect for any sunrise.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/a822eb63-8d85-4fee-bcd1-f10a4bc128ef_469de50e-61ac-478b-9a18-03891c94fb08.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 4500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424581",
+                                                            "name": "Normal dosa",
+                                                            "category": "Breakfast",
+                                                            "description": "A classic and flavorful vegetarian dish perfect for a satisfying and comforting breakfast.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 3500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424576",
+                                                            "name": "Ghee uttapam",
+                                                            "category": "Breakfast",
+                                                            "description": "Savor the mouthwatering flavors of this flavorful and traditional Indian breakfast delicacy, prepared with a touch of richness and served piping hot.",
+                                                            "imageId": "zoqfc2uesjxi0uxug4ns",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 4500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "saybffiwgxfk8yhun970",
+                                            "categoryId": "47013736"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Starters",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424598",
+                                                            "name": "Pallipalayam chicken",
+                                                            "category": "Starters",
+                                                            "description": "Delicious chicken starter bursting with rich flavors.",
+                                                            "imageId": "6bc4641359e3ac36c012df2ab46ba2e3",
+                                                            "inStock": 1,
+                                                            "price": 15000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.8",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424595",
+                                                            "name": "Dragon chicken dry",
+                                                            "category": "Starters",
+                                                            "inStock": 1,
+                                                            "price": 18000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424597",
+                                                            "name": "Chicken manchurian gravy",
+                                                            "category": "Starters",
+                                                            "description": "A delectable blend of tender chicken in a flavorful, savory gravy that will leave your taste buds craving for more.",
+                                                            "imageId": "rdjfski76oty5gsob1lj",
+                                                            "inStock": 1,
+                                                            "price": 15000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424596",
+                                                            "name": "Dragon chicken gravy",
+                                                            "category": "Starters",
+                                                            "description": "Indulge in a flavorful and enticing non-veg starter bursting with succulent charm and delightful nuances.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/7/0c0b6f1a-fa96-4f6f-bc51-127454af95e6_f02058ce-4483-413b-97ce-a9a7b6f55d35_compressed",
+                                                            "inStock": 1,
+                                                            "price": 18000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424599",
+                                                            "name": "Pepper pallipalayam chicken",
+                                                            "category": "Starters",
+                                                            "description": "A delightful succulent chicken starter seasoned with aromatic spices and cooked to perfection.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/05f4db57-71e7-41fe-895a-4da94431d637_299073e0-4bdb-45ea-811c-596bcd8c4609.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "price": 16000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "2.6",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424594",
+                                                            "name": "Chicken manchurian dry",
+                                                            "category": "Starters",
+                                                            "description": "A succulent, flavorful chicken dish that perfectly complements any meal with its tantalizing taste and delectable texture.",
+                                                            "imageId": "60106ae3e8322f19a4c5dc4c17eceed2",
+                                                            "inStock": 1,
+                                                            "price": 15000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424593",
+                                                            "name": "Boneless chicken 65",
+                                                            "category": "Starters",
+                                                            "description": "Delicious boneless chicken starter bursting with irresistible flavors.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/fc955ced-f8d1-4b74-b16a-c520d47b7a99_4f4091d6-810e-4a50-8af7-8773f61707a3.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "price": 12500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424592",
+                                                            "name": "Chicken 65",
+                                                            "category": "Starters",
+                                                            "inStock": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.3",
+                                                                    "ratingCount": "6 ratings",
+                                                                    "ratingCountV2": "6"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "6bc4641359e3ac36c012df2ab46ba2e3",
+                                            "categoryId": "47013739"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Fried Rice",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424603",
+                                                            "name": "Chicken fried rice",
+                                                            "category": "Fried Rice",
+                                                            "description": "A flavorful blend of tender chicken and aromatic rice stir-fried to perfection, creating a delectable dish that will leave you craving for more.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/29/fb1dcd67-cce7-4642-92b7-d2139bd1fe50_4ea86d79-bd00-48d3-85a1-98dbe077e151.jpg",
+                                                            "inStock": 1,
+                                                            "price": 14000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.7",
+                                                                    "ratingCount": "8 ratings",
+                                                                    "ratingCountV2": "8"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424600",
+                                                            "name": "Veg fried rice",
+                                                            "category": "Fried Rice",
+                                                            "description": "A mouthwatering medley of vegetables and aromatic flavors stir-fried with fragrant rice.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/28/6d5bf743-8469-4bb9-994e-4fa77f1fc2ce_45434ac8-5149-4dbb-a779-90f7f6f7c53a.jpeg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.8",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424602",
+                                                            "name": "Egg fried rice",
+                                                            "category": "Fried Rice",
+                                                            "description": "A flavorful and satisfying fried rice prepared with tender eggs and a medley of delightful ingredients.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/3/47d0becb-1232-4f5e-9844-155b6bf413c7_7fbd02c4-97e6-48b3-8782-a7d200c17f8f.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "price": 11000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/3/29/fb1dcd67-cce7-4642-92b7-d2139bd1fe50_4ea86d79-bd00-48d3-85a1-98dbe077e151.jpg",
+                                            "categoryId": "47013740"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Biryani",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424584",
+                                                            "name": "Chicken 65 biryani",
+                                                            "category": "Biryani",
+                                                            "description": "A mouthwatering blend of tender chicken and aromatic spices, layered with fragrant basmati rice.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/4/4ba86f60-6b06-42fc-ace3-79c2f6fbe8ac_79f3b1e2-1fe4-4358-a11c-d50e331dea14.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "price": 16000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.0",
+                                                                    "ratingCount": "10 ratings",
+                                                                    "ratingCountV2": "10"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424582",
+                                                            "name": "Egg biryani",
+                                                            "category": "Biryani",
+                                                            "inStock": 1,
+                                                            "price": 11000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/4/4/4ba86f60-6b06-42fc-ace3-79c2f6fbe8ac_79f3b1e2-1fe4-4358-a11c-d50e331dea14.jpg_compressed",
+                                            "categoryId": "47013737"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Combos",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424561",
+                                                            "name": "Chicken biryani combo",
+                                                            "category": "Combos",
+                                                            "inStock": 1,
+                                                            "price": 12800,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.0",
+                                                                    "ratingCount": "9 ratings",
+                                                                    "ratingCountV2": "9"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424559",
+                                                            "name": "Biryani combo",
+                                                            "category": "Combos",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 17000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.7",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424560",
+                                                            "name": "Egg biryani combo",
+                                                            "category": "Combos",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/17/1c7eaa5c-f0bc-4d0c-b91f-725215a206b7_e5f553eb-60ed-4240-aa03-7ce7aa5832f4.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "price": 11000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.5",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424562",
+                                                            "name": "Curd rice with chicken pallipalayam",
+                                                            "category": "Combos",
+                                                            "inStock": 1,
+                                                            "price": 11000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "2.9",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/6/17/1c7eaa5c-f0bc-4d0c-b91f-725215a206b7_e5f553eb-60ed-4240-aa03-7ce7aa5832f4.jpg_compressed",
+                                            "categoryId": "47013735"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Variety Rice",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424590",
+                                                            "name": "Curd rice",
+                                                            "category": "Variety Rice",
+                                                            "description": "Creamy and comforting, this traditional rice dish is a delightful combination of smooth curd and fragrant spices.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/2fb644aa-2f97-4698-96af-b287a6f54c96_05bb0f48-c48e-4ee9-ac51-9b0beaa77e5c.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.9",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424585",
+                                                            "name": "Sambar rice",
+                                                            "category": "Variety Rice",
+                                                            "description": "A flavorful and aromatic blend of rice and lentils in a delectable assortment of vegetable-infused goodness.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/976b9d11-122f-4dc0-b8bc-5ad42adbf60d_01c833cc-47bf-4a43-b963-28c96467938c.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.0",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424591",
+                                                            "name": "Arisi paruppu sadam",
+                                                            "category": "Variety Rice",
+                                                            "description": "Savour the delectable medley of flavors in this traditional South Indian dish that showcases the delightful marriage of rice and lentils.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/17/0eef1f99-19d7-4200-bac2-c0c0159a9fe2_19fced08-de9d-42ff-b7b7-009ac5cfb7fb.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424589",
+                                                            "name": "Puli sadham",
+                                                            "category": "Variety Rice",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/a2252114-8a68-43c5-bdb7-2fbb38d6bd67_6a0ef123-55e9-43aa-b6c4-f6af6a372da7.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424588",
+                                                            "name": "Lemon rice",
+                                                            "category": "Variety Rice",
+                                                            "description": "A zesty and flavorful rice dish infused with refreshing lemon, creating a perfect harmony of tangy and aromatic flavors.",
+                                                            "imageId": "47bac82bcec215537ece83acdf80fbae",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424587",
+                                                            "name": "Tomato rice",
+                                                            "category": "Variety Rice",
+                                                            "description": "A flavorful and aromatic medley of rice infused with the essence of tangy tomatoes and aromatic spices.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/2fb644aa-2f97-4698-96af-b287a6f54c96_05bb0f48-c48e-4ee9-ac51-9b0beaa77e5c.jpg",
+                                            "categoryId": "47013738"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Noodles",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424604",
+                                                            "name": "Chicken fried noodles",
+                                                            "category": "Noodles",
+                                                            "description": "Deliciously fried noodles with tender chicken, offering a mouthwatering combination of flavors and textures.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/3938133a-bc71-4706-9a44-614f5f599153_f0492376-7e71-4ac6-9157-1ac57056f4b3.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "price": 14000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424601",
+                                                            "name": "Veg fried noodles",
+                                                            "category": "Noodles",
+                                                            "description": "A savory and flavorful delight of stir-fried vegetables and noodles, perfect for noodle lovers seeking a scrumptious veggie option.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/10/cfbd935f-5be9-4a92-935f-1b54f3115423_824a7375-b41c-40e7-b4bd-ff128afd3ee2.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 10000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.6",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/3938133a-bc71-4706-9a44-614f5f599153_f0492376-7e71-4ac6-9157-1ac57056f4b3.jpg_compressed",
+                                            "categoryId": "47013741"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Breads",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424610",
+                                                            "name": "2 chapati with chicken korma",
+                                                            "category": "Breads",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/12/b4b20323-44a3-4cd3-9497-cb56689ab68e_25ba59d2-4a44-423d-b285-bd4e0460b103.jpg",
+                                                            "inStock": 1,
+                                                            "price": 6500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "6 ratings",
+                                                                    "ratingCountV2": "6"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424609",
+                                                            "name": "2 chapati with veg korma",
+                                                            "category": "Breads",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/e31ac3b2-725f-4fce-93c5-3574c05594ca_d1d7259d-dc33-46ba-8cb7-a8940e55f9a3.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 5500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.2",
+                                                                    "ratingCount": "10 ratings",
+                                                                    "ratingCountV2": "10"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/3/12/b4b20323-44a3-4cd3-9497-cb56689ab68e_25ba59d2-4a44-423d-b285-bd4e0460b103.jpg",
+                                            "categoryId": "47013743"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Value Combos",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424605",
+                                                            "name": "Ghee dosa with  paniyaram [6 pieces]",
+                                                            "category": "Value Combos",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7100,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424607",
+                                                            "name": "Podi dosa with idli sambar",
+                                                            "category": "Value Combos",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137424606",
+                                                            "name": "Idli [2 pieces] with normal dosa",
+                                                            "category": "Value Combos",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6400,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "categoryId": "47013742"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 22420065000071"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "Thena Catering Tiffin Centre",
+                                            "area": "Sathyamangalam",
+                                            "completeAddress": "LAYAM PANCHAYAT, Sathyamangalam"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "9b3a95da-23d0-4756-81ef-162fc70f83fe",
+    "sid": "kb472370-dea9-4d99-9ac8-36218c28f696",
+    "deviceId": "fbcc0d23-fb42-673e-44db-f84fea302e44",
+    "csrfToken": "wyuHAfR5l04T-taLX44p-qK2H158CboKd9sT4Uvw"
+}
