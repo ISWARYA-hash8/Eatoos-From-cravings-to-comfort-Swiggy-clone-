@@ -54,7 +54,10 @@ console.log(listOfRestaurants)
       </div> */}
       <div className="filter">
         <div className='search'>
-          <input type="text" className='border border-solid border-black' value={searchText}
+          <input
+           type="text"
+           data-testid = "searchInput"
+           className='border border-solid border-black' value={searchText}
           onChange={(e) => {
             setSearchText(e.target.value);
           }} />

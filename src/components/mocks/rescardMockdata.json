@@ -1,0 +1,89 @@
+{
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    "info": {
+        "id": "864496",
+        "name": "Thena Catering Tiffin Centre",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/1/851b9fbc-b105-4f1a-a72b-a902e03b6f5f_864496.jpg",
+        "locality": "Gobichettipalayam",
+        "areaName": "Sathyamangalam",
+        "costForTwo": "₹200 for two",
+        "cuisines": [
+            "South Indian"
+        ],
+        "avgRating": 4.4,
+        "parentId": "507029",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "142",
+        "sla": {
+            "deliveryTime": 21,
+            "lastMileTravel": 1.7,
+            "serviceability": "SERVICEABLE",
+            "slaString": "20-25 mins",
+            "lastMileTravelString": "1.7 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2025-04-29 22:00:00",
+            "opened": true
+        },
+        "badges": {
+            "imageBadges": [
+                {
+                    "imageId": "bolt/big%20rx%20listing%2015%20mins%20.png",
+                    "description": "bolt!"
+                }
+            ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {},
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {
+                    "badgeObject": [
+                        {
+                            "attributes": {
+                                "description": "bolt!",
+                                "imageId": "bolt/big%20rx%20listing%2015%20mins%20.png"
+                            }
+                        }
+                    ]
+                },
+                "textBased": {},
+                "textExtendedBadges": {}
+            }
+        },
+        "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+            "aggregatedRating": {
+                "rating": "--"
+            }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+        "context": "seo-data-c4d378e9-68ad-4365-945b-0d3819881ae1"
+    },
+    "cta": {
+        "link": "https://www.swiggy.com/city/erode/thena-catering-tiffin-centre-gobichettipalayam-sathyamangalam-rest864496",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}
