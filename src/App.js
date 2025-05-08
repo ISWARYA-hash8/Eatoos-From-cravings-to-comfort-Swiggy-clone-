@@ -66,7 +66,7 @@ import Cart from './components/Cart';
  *        export default Component;
  *        import Component from 'path';
 
- *   2) Name Export/Import
+ *   2) Named Export/Import
  *        export const Component;
  *        import { Component } from 'path'; 
  
