@@ -32,7 +32,7 @@ const RestaurantMenu = () =>{
     <Shimmer />
 ) : ( 
         <div className="text-center" >
-            <h1 className="font-bold my-10 text-2xl">{name|| "Loading ..."}</h1>
+            <h1 className="font-bold  my-10 text-2xl">{name|| "Loading ..."}</h1>
             <h2 className="font-bold text-lg">{cuisines}</h2>
             <h3>{costForTwoMessage}</h3>
             <h2>{avgRating} </h2>
