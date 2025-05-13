@@ -34,7 +34,7 @@ class UserClass extends React.Component {
        // console.log("Child render called");
         //render method retrun some piece of jsx which will be rendered to the UI
         return (
-            <div className='border m-4 font-bold p-4'>
+            <div className='border m-4 font-bold font-serif p-4'>
                 
                 <img src={avatar_url} />
                 <h2>Name : {name}  </h2>
