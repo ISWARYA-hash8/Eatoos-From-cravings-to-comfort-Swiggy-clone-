@@ -37,7 +37,7 @@ class UserClass extends React.Component {
             <div className='border rounded-sm m-4 font-bold font-serif p-4'>
                 
                 <img src={avatar_url} />
-                <h2>Name : {name}  </h2>
+                <h2 className="m-4">Name : {name}  </h2>
                 <h2>Location : {Location} Tiruppur</h2>
             </div>
         )
