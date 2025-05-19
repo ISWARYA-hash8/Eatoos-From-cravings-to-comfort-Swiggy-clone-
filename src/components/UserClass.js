@@ -15,7 +15,7 @@ class UserClass extends React.Component {
           
     }}
   async  componentDidMount(){
-        console.log("child component did mount is called");
+        console.log("child component did mount is called..");
 
 
         /// API calls
