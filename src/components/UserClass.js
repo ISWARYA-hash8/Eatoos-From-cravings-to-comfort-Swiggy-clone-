@@ -11,7 +11,7 @@ class UserClass extends React.Component {
         avatar_url : "Dummy photo",
        
                         },
-       // console.log("Child constructor called..");
+       // console.log("Child constructor called......");
           
     }}
   async  componentDidMount(){
