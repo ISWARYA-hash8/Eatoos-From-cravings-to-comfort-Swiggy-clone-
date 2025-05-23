@@ -5,7 +5,7 @@
 
  Eatoos is a frontend-only food delivery web app that allows users to browse restaurants, explore menus, add items to cart, and view an order summary.
 
----
+
 
 ## 🖼️ Screens / Features
 
