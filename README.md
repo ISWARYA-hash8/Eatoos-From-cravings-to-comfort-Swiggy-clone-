@@ -22,8 +22,11 @@
 - ⚛️ React.js
 - 💨 Tailwind CSS (or your CSS framework)
 - 🔄 React Router (for page routing)
-- 📦 Context API 
--
+- 📦 Context API
+- Jest for testing
+- Redux toolkit for store management
+  
+
 
 ---
 
